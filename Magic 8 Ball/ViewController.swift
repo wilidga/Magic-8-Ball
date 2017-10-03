@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
     
     func newBallImage() {
-        randomBallNumber = Int(arc4random_uniform(4))
+        randomBallNumber = Int(arc4random_uniform(5))
         imageViewAsk.image = UIImage(named: ballArray[randomBallNumber])
         
     }
